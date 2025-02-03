@@ -1,0 +1,35 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+header{
+    background-image: url(image.png);
+    padding:25px;
+    
+}
+nav ul{
+    list-style:none;
+    display:flex;
+    justify-content:space-around;
+    flex-direction:row;
+}
+
+   
+nav a{
+    color:white;
+    text-decoration:none;
+    font-size:25px;
+    font-weight: bold;
+}
+.portada img{
+    width:100%;
+}
+.seccion-Cumple{
+    display:flex;
+    justify-content:space-around;
+    background: linear-gradient(#4584CCDE,#2E5888DE,#274B73DE,#224266DE);
+    color:white;
+    text-align:center;
+    padding:20px 0;
+}
